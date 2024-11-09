@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2017", // Updated to at least ES2017 to support padStart
+    "lib": ["es2017", "dom"], // Ensure ES2017 library features are included
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["cypress"],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["cypress/*"]
+    }
+  },
+  "include": ["cypress/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+
