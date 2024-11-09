@@ -58,4 +58,6 @@ export const secondGiftCardImageSelector = 'img.cms-image-block__image:eq(1)';
 export const secondGiftCardImageSrc = 'https://resources.booztcdn.com/109268-1729763077-w42GiftcardDTAleftda.jpg';
 
 export const booztGiftCardLink = 'a[href*="gogift.com/boozt-dk"]';
-const emailButton= 'div.delivery-buttons span:contains("E-mail")';
+export const emailButton= 'div.delivery-buttons span:contains("E-mail")';
+
+export const optionList = ''
